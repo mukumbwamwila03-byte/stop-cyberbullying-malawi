@@ -44,6 +44,7 @@ export default function SiteFooter() {
         <div className="page-shell footer-bottom-inner">
           <span>© Stop Cyberbullying Malawi</span>
           <span>Think before you type. Respect before you post.</span>
+          <Link href="/privacy">Privacy &amp; safeguarding</Link>
         </div>
       </div>
     </footer>

@@ -17,7 +17,6 @@ const navigation = [
   { label: "Understand Cyberbullying", href: "/understand" },
   { label: "Know the Law", href: "/know-the-law" },
   { label: "Victim Support", href: "/victim-support" },
-  { label: "Quiz", href: "/quiz" },
 ];
 
 export default function Navbar() {
