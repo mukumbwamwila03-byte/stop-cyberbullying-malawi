@@ -108,7 +108,7 @@ function SupportCard({
       <span className="eyebrow">{label}</span>
       <h3>{title}</h3>
       <p>{description}</p>
-      <a className="text-link" href="#support-note">
+      <a className="text-link" href="/victim-support">
         Know what to do <ArrowRight size={15} aria-hidden="true" />
       </a>
     </article>
@@ -260,18 +260,6 @@ export default function Home() {
                 <SupportCard key={route.label} {...route} />
               ))}
             </div>
-            <aside className="safety-note" id="support-note" aria-labelledby="safety-title">
-              <div className="safety-note-icon"><ShieldAlert size={20} aria-hidden="true" /></div>
-              <div>
-                <h3 id="safety-title">A note on safety and privacy</h3>
-                <p>
-                  This website does not receive incident reports. Please do not
-                  post names, screenshots, phone numbers, or other identifying
-                  details here. If you are under 18, involve a trusted adult
-                  before sharing information online.
-                </p>
-              </div>
-            </aside>
           </div>
         </section>
 
