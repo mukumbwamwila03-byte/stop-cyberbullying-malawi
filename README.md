@@ -12,6 +12,16 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
+## Social sharing previews
+
+The root App Router metadata generates Open Graph and Twitter large-image cards
+from `src/app/opengraph-image.png` and `src/app/twitter-image.png`. In Vercel
+deployments, the deployment URL is used by default. When using a custom domain,
+set `NEXT_PUBLIC_SITE_URL` to the canonical public URL (for example,
+`https://example.org`) so share metadata points to publicly reachable assets.
+Social platforms may cache previews; refresh their URL debugger or sharing
+inspector after updating a deployed card.
+
 ## Project structure
 
 - `src/app/` — Next.js App Router homepage, About, Understand, Know the Law, and Victim Support pages, metadata, and global styles
